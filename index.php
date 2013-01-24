@@ -3,7 +3,7 @@
 <?php
 session_start();
 $_SESSION["id"] = session_id();
-$_SESSION["City"] = "Dookiebag, Pisstown";
+$_SESSION["City"] = "None, Empty";
 
 ?>
 
