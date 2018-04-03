@@ -1,0 +1,11 @@
+st of files to ignor in facingsf.com directory.  Only want to track site files.
+
+#Display php info.
+/public_html/info.php
+
+#Symbolic Link to phpmyadmin.
+/public_html/facingsf_admin
+
+example.com/
+index.nginx-debian.html
+
