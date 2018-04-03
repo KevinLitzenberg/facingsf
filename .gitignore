@@ -1,4 +1,8 @@
+<<<<<<< 62c7939721d344f971ba151c588c3582b6badbc9
 st of files to ignor in facingsf.com directory.  Only want to track site files.
+=======
+#List of files to ignor in facingsf.com directory.  Only want to track site files.
+>>>>>>> AWS/PHP7/Ubuntu16.04/NGINX/LEMP upgrade to packages, OS, code, and files.
 
 #Display php info.
 /public_html/info.php
