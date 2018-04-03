@@ -1166,7 +1166,7 @@ a:active {}
 				
 				<?php
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 	
 					//Run a query
 					$resultSF = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` = 'San Francisco, CA' AND YEAR(`ImageDate`)= '2012' AND `Notes` = 'splash' AND `Notes` != 'SIGNS and NOTES' ORDER BY `ImageDate` DESC LIMIT 3");
@@ -1197,7 +1197,7 @@ a:active {}
 				
 				<?php
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 
 					//Run a query
 					$resultSF = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` = 'San Francisco, CA' AND YEAR(`ImageDate`)= '2011' AND `Notes`='splash' ORDER BY `ImageDate` DESC LIMIT 3");
@@ -1226,7 +1226,7 @@ a:active {}
 		<a href=DisplayPhotoGallery01.html.php?City=SanFran&Year=2010>
 		    <?php
 				//Connect and select db
-				$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+				$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 	
 				//Run a query
 				$resultSF = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` = 'San Francisco, CA' AND YEAR(`ImageDate`)= '2010' AND `Notes`='splash' ORDER BY `ImageDate` DESC LIMIT 3");
@@ -1277,7 +1277,7 @@ a:active {}
 	        <a href=DisplayPhotoGallery01.html.php?City=LosAngeles&Year=2010>
 			    <?php
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 
 					//Run a query
 				   $resultLA = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` = 'Los Angeles, CA' AND YEAR(`ImageDate`)= '2010' AND `Notes`='splash' ORDER BY `ImageDate` ASC LIMIT 3");
@@ -1306,7 +1306,7 @@ a:active {}
             <a href=DisplayPhotoGallery01.html.php?City=NewYork&Year=2010>
 			    <?php
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 
 					//Run a query
 					$resultNY = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` = 'New York, NY' AND YEAR(`ImageDate`)= '2010' AND `Notes`='splash' ORDER BY `ImageDate` ASC LIMIT 3");
@@ -1334,7 +1334,7 @@ a:active {}
             <a href=DisplayPhotoGallery01.html.php?City=SoutheastAsia&Year=2008>
 			    <?php
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 
 					//Run a query
 					$resultSEastAsia = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` = 'Bangkok, Thailand' AND `Notes`='splash' OR `ImageLocation` = 'Chang Mai, Thailand' AND `Notes`='splash' OR `ImageLocation` = 'Pantang, Malaysia' AND `Notes`='splash' OR `ImageLocation` = 'Kula Lumpar, Malaysia' AND `Notes`='splash' OR `ImageLocation` = 'Singapore, Singapore' AND `Notes`='splash' ORDER BY `ImageDate` DESC LIMIT 3");
@@ -1382,7 +1382,7 @@ a:active {}
 				
 				<?php
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 	
 					//Run a query
                     			$resultCTA = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` LIKE '%Nicaragua' AND `Notes`='splash' AND `Notes` != 'SIGNS and NOTES' OR`ImageLocation` LIKE '%Mexico'AND `Notes`='splash' AND `Notes` != 'SIGNS and NOTES' ORDER BY `ImageDate` ASC LIMIT 3");
@@ -1411,7 +1411,7 @@ a:active {}
 			<a href=DisplayPhotoGallery01.html.php?City=BarcelonaSpain&Year=2006>
 			    <?php
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 
 					//Run a query
 					$resultSpain = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` = 'Barcelona, Spain' AND `Notes`='splash' ORDER BY `ImageDate` DESC LIMIT 3");
@@ -1439,7 +1439,7 @@ a:active {}
 	        <a href=DisplayPhotoGallery01.html.php?City=ParisFrance&Year=2005-2006>
 		    <?php
 				//Connect and select db
-				$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+				$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 	
 				//Run a query
 				$resultFrance = mysqli_query($link, "SELECT * FROM faceimages WHERE `ImageLocation` = 'Paris, France' LIMIT 3");

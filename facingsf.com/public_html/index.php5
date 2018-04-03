@@ -1166,7 +1166,7 @@ a:active {}
 				
 				<?php
 					//Connect and select db
-					mysqli_connect("localhost", "root", "Zxcv43bn!@nm");
+					mysqli_connect("localhost", "root", "secret_pw");
 					mysql_select_db("wallfaces");
 	
 					//Run a query
@@ -1196,7 +1196,7 @@ a:active {}
 				
 				<?php
 					//Connect and select db
-					mysql_connect("localhost", "root", "p00ps1ing");
+					mysql_connect("localhost", "root", "secret_pw");
 					mysql_select_db("wallfaces");
 	
 					//Run a query
@@ -1222,7 +1222,7 @@ a:active {}
 		<a href=DisplayPhotoGallery01.html.php?City=SanFran&Year=2010>
 		    <?php
 				//Connect and select db
-				mysql_connect("localhost", "root", "p00ps1ing");
+				mysql_connect("localhost", "root", "secret_pw");
 				mysql_select_db("wallfaces");
 	
 				//Run a query
@@ -1271,7 +1271,7 @@ a:active {}
 	        <a href=DisplayPhotoGallery01.html.php?City=LosAngeles&Year=2010>
 			    <?php
 					//Connect and select db
-					mysql_connect("localhost", "root", "p00ps1ing");
+					mysql_connect("localhost", "root", "secret_pw");
 					mysql_select_db("wallfaces");
 
 					//Run a query
@@ -1298,7 +1298,7 @@ a:active {}
             <a href=DisplayPhotoGallery01.html.php?City=NewYork&Year=2010>
 			    <?php
 					//Connect and select db
-					mysql_connect("localhost", "root", "p00ps1ing");
+					mysql_connect("localhost", "root", "secret_pw");
 					mysql_select_db("wallfaces");
 
 					//Run a query
@@ -1324,7 +1324,7 @@ a:active {}
             <a href=DisplayPhotoGallery01.html.php?City=SoutheastAsia&Year=2008>
 			    <?php
 					//Connect and select db
-					mysql_connect("localhost", "root", "p00ps1ing");
+					mysql_connect("localhost", "root", "secret_pw");
 					mysql_select_db("wallfaces");
 
 					//Run a query
@@ -1371,7 +1371,7 @@ a:active {}
 				
 				<?php
 					//Connect and select db
-					mysql_connect("localhost", "root", "p00ps1ing");
+					mysql_connect("localhost", "root", "secret_pw");
 					mysql_select_db("wallfaces");
 	
 					//Run a query
@@ -1399,7 +1399,7 @@ a:active {}
 			<a href=DisplayPhotoGallery01.html.php?City=BarcelonaSpain&Year=2006>
 			    <?php
 					//Connect and select db
-					mysql_connect("localhost", "root", "p00ps1ing");
+					mysql_connect("localhost", "root", "secret_pw");
 					mysql_select_db("wallfaces");
 
 					//Run a query
@@ -1425,7 +1425,7 @@ a:active {}
 	        <a href=DisplayPhotoGallery01.html.php?City=ParisFrance&Year=2005-2006>
 		    <?php
 				//Connect and select db
-				mysql_connect("localhost", "root", "p00ps1ing");
+				mysql_connect("localhost", "root", "secret_pw");
 				mysql_select_db("wallfaces");
 	
 				//Run a query
