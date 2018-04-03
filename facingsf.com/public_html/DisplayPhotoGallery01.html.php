@@ -374,7 +374,7 @@ a:nth-child(n+7) .closed{
 <?php
 	
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 					//mysql_select_db("wallfaces");
 					
 					$result = mysqli_query($link, "SELECT * FROM faceimages");
@@ -727,7 +727,7 @@ a:active {}
 	<?php
 	
 					//Connect and select db
-					$link = mysqli_connect("localhost", "root", "Zxcv43bn!@nm", "wallfaces");
+					$link = mysqli_connect("localhost", "root", "secret_pw", "wallfaces");
 	
 					//Check for Paris then Run a query
 					if($_SESSION['City'] == "Paris, France"){

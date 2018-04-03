@@ -374,7 +374,7 @@ a:nth-child(n+7) .closed{
 <?php
 	
 					//Connect and select db
-					mysql_connect("localhost", "root", "Zxcv43bn!@nm");
+					mysql_connect("localhost", "root", "secret_pw");
 					mysql_select_db("wallfaces");
 					
 					$result = mysql_query("SELECT * FROM faceimages");
