@@ -1,0 +1,13 @@
+http://www.facingsf.com
+
+An online street art photo blog. 
+
+Uses an AWS LEMP (NGINX) Stack on Ubuntu 16.04.
+
+Repo contains files from previous install on Ubuntu 14.04.  Since 14.04 used php5 as default the files that end in *.php5 can be used.
+
+The files ending *.php are the actual files used on the AWS instance.  The *.php5 are merely here for referance.
+
+
+
+
